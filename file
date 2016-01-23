@@ -11,7 +11,7 @@
 
 	<div id="map" style='width:700px;height:500px'></div>
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-<script src="https://github.com/mayotunde/zoom/blob/gh-pages/src/L.Control.Zoomslider.js"></script>
+<script src="https://cdn.rawgit.com/mayotunde/zoom/gh-pages/src/L.Control.Zoomslider.js"></script>
 
 <script>
 var map = L.map('map', {zoomsliderControl: true,
@@ -21,7 +21,6 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     }).addTo(map);
     
     
-map.addControl(new L.Control.Zoomslider());
 
 </script>
 </body>
